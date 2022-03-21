@@ -1,6 +1,5 @@
 const { MongoClient } = require("mongodb");
-const uri =
-  "mongodb+srv://carl:Password123@cluster0.tmfnh.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+const uri = "INSERT MONGO URI HERE";
 const client = new MongoClient(uri);
 
 exports.fetchUsers = async () => {
